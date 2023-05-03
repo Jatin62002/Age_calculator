@@ -83,5 +83,8 @@ input{
     font-size:2vh;
     color: red;
 }
-
-
+@media screen and (max-width: 500px){
+    .input-date{
+        column-gap: 0;
+    }
+}
