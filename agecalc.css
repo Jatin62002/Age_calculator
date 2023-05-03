@@ -1,0 +1,87 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: gainsboro;
+}
+.title{
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color:dodgerblue;
+    width: 48vh;
+}
+.container{
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2vh;
+    margin-top: 2vh;
+    border-bottom-right-radius: 30%;
+}
+.input-date{
+    display: flex;
+    column-gap: 6rem;
+    margin: auto;
+}
+.calcage-wrap{
+    margin: auto;
+    max-width: 300px;
+}
+.calc{
+    display: flex;
+    column-gap: 3vh;
+}
+label{
+    color: rgb(148, 148, 148);
+    font-weight: bolder;
+    font-size: 2vh;
+}
+.htag{
+    font-size: 3rem;
+}
+input{
+    border: 1px solid gainsboro;
+    border-radius: 10%;
+    font-weight: bolder;
+    padding: 1vh;
+    font-size: large;
+    height: 2rem;
+    width: 5rem;
+}
+.age-day{
+    color:rgb(117, 31, 255);
+    font-size: 7vh;
+}
+.age-mon{
+    color:rgb(117, 31, 255);
+    font-size: 7vh;
+}
+.age-year{
+    color:rgb(117, 31, 255);
+    font-size: 7vh;
+}
+.linebtn{
+    display: flex;
+}
+
+.daymsg{
+    display: none;
+}
+.yearmsg{
+    display: none;
+}
+.monthmsg{
+    display: none;
+}
+.invalid{
+    border:1px solid red
+}
+.show{
+    display: block;
+    font-size:2vh;
+    color: red;
+}
+
+
